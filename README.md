@@ -18,7 +18,8 @@ The followings are some packages often be used:
     iris = dataset("datasets","iris")
     first(iris,5)
     
-    using Distributions , Gadfly  # 最常用的畫圖工具
+### 最常用的畫圖工具
+    using Distributions , Gadfly 
     
     using StatsBase
     using JSON
